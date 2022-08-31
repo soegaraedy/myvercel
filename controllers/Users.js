@@ -6,6 +6,6 @@ export const getUsers = async (req, res) => {
         });
     } catch (error) {
         console.log(error);
-        return res.status(500).send("Server Error");
+        return res.status(500).json({msg: error.message});
     }
 };
