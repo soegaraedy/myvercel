@@ -1,1 +1,33 @@
 GET http://localhost:5000/api/users
+
+###
+POST http://localhost:5000/api/users
+Content-Type: application/json
+
+{
+    "name": "fsadfsdaf",
+    "email": "234@gmail.com",
+    "password": "123456",
+    "role": "admin"
+}
+
+###
+//Get user by id
+GET http://localhost:5000/api/users/6312499ca01fc26ce579a279
+
+###
+//UPDATE USER
+PATCH  http://localhost:5000/api/users/6312347f601b7cf29e733544
+Content-Type: application/json
+
+{
+    "name": "update user 2",
+    "email": "234@gmail.com",
+    "password": "123456",
+    "role": "admin"
+}
+
+
+###
+//DELETE User
+DELETE  http://localhost:5000/api/users/6312499ca01fc26ce579a279
