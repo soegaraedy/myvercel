@@ -5,7 +5,7 @@ POST http://localhost:5000/api/users
 Content-Type: application/json
 
 {
-    "name": "fsadfsdaf",
+    "name": "cek 123",
     "email": "234@gmail.com",
     "password": "123456",
     "role": "admin"
